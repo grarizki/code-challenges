@@ -1,0 +1,28 @@
+.card {
+  width: 351px;
+  height: 590px;
+  background-color: #15273f;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.card-header img {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 303px;
+  height: 302px;
+}
+h2 {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: lightblue;
+}
+.card-header p {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  font-size: 18px;
+}
