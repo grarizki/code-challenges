@@ -3,6 +3,8 @@
 body {
   background-color: #30486c;
   font-family: 'Poppins', sans-serif;
+  width: auto;
+  height: auto;
 }
 
 .card {
@@ -18,21 +20,52 @@ body {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.title {
+.title-card {
   padding-left: 24px;
   padding-right: 24px;
   color: aqua;
 }
 
-.desc {
+.desc-card {
   padding-left: 24px;
   padding-right: 24px;
   color: white;
 }
 .equil-img {
+  top: 0;
+  left: 0;
+  position: relative;
   width: 303px;
   height: 302px;
   padding-top: 24px;
   padding-left: 24px;
   padding-right: 24px;
 }
+
+.equil-view {
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  display: block;
+}
+
+.icon-eth {
+  width: 16px;
+  height: 26px;
+  padding-right: 5px;
+}
+.currency-eth {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #66c8ff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.date-eth {
+  display: flex;
+  padding-left: 100px;
+}
+
+
